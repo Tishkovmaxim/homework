@@ -1,2 +1,2 @@
-# Awsome Homework
+# Tishkov Maxim Homework
 Variant #2

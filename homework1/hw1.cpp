@@ -21,7 +21,7 @@ int main() {
     ifstream F;
     int delimiter;
 
-    F.open("A:\\stydy\\results\\matmod\\in.txt"); //Путь к файлику с данными
+    F.open("in.txt"); //Путь к файлику с данными
     int i=1;
     if (F) {
         while (!F.eof()) {

@@ -27,8 +27,8 @@ int main() {
         while (!F.eof()) {
             getline(F,str);
             delimiter = str.find(" ");
-            x = stoi(str.substr(0, delimiter));
-            y = stoi(str.substr(delimiter + 1, str.length()));
+            x = stod(str.substr(0, delimiter));
+            y = stod(str.substr(delimiter + 1, str.length()));
             if(i==1){
                 xn = x;
                 yn = y;

@@ -12,7 +12,6 @@ int main(int argc, char** argv) {
 
         // есть один агрумент
         // в argv[1] содержится строка с первым агрументом (имя файла)
-        std::cout << "1st argument: " << argv[1] << std::endl;
         filename = argv[1];
     } else {
         // аргументов нет или их больше чем мы ожидаем
